@@ -1,0 +1,56 @@
+.create_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  top: 23px;
+  left: 250px;
+  width: 500px;
+  height: 300px;
+  border-radius: 0px 5px 5px 5px;
+
+  background-color: rgb(240, 185, 3);
+}
+
+.create_menu_header {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 500px;
+  cursor: pointer;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.create_menu_info {
+  margin-bottom: 10px;
+  height: 300px;
+  width: 502px;
+  resize: none;
+  cursor: pointer;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.create_menu_btn_block {
+  width: 506px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create_menu_button {
+  border: none;
+  background-color: rgb(240, 185, 3);
+  border-bottom: 1px solid rgb(240, 185, 3);
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.create_menu_button:hover {
+  border-bottom: 1px solid black;
+}

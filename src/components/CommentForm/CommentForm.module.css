@@ -1,0 +1,31 @@
+.comment_form {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.comment_form_input {
+  width: 90%;
+  height: 35px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.comment_form_button {
+  background-color: rgb(3, 125, 240);
+  border: none;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 0px 5px 5px 0px;
+  transition: transform 0.5s;
+}
+
+.comment_form_button:hover {
+ transform: scale(1.1);
+ box-shadow: 3px 3px black;
+ border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+.note_comments_close_block {
+  display: flex;
+  justify-content: flex-end;
+}
+.note_comments_close_btn {
+  background-color: rgb(240, 185, 3);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: -15px;
+  transition: transform 0.5s;
+}
+.note_comments_close_btn:hover {
+  transform: scale(1.2);
+}

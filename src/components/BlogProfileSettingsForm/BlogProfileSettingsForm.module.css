@@ -1,0 +1,34 @@
+.blog_settings_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 210px;
+  top: -0.03rem;
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+
+  background-color: rgb(240, 185, 3);
+}
+
+.blog_settings_form_input {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 10px;
+
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.blog_settings_form_textarea {
+    width: 90%;
+    height: 220px;
+    margin-bottom: 10px;
+    resize: none;
+
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}

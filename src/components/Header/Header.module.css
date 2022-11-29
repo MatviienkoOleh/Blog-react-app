@@ -1,0 +1,60 @@
+.header_wrapper {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(26, 17, 99);
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.manually_menu {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(240, 185, 3);
+  border: none;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.header_button:hover {
+  cursor: pointer;
+  background-color: rgb(252, 222, 52);
+  box-shadow: 5px -5px 0 black;
+}
+
+.drop_down_menu {
+  padding: 10px 0px;
+  width: 300px;
+  position: absolute;
+  list-style-type: none;
+  top: 40px;
+  border-radius: 0px 5px 5px 5px;
+  background-color: rgb(240, 185, 3);
+}
+
+.header_text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: rgb(240, 185, 3);
+}

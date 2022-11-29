@@ -1,0 +1,41 @@
+.settings_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  padding: 5px 0px;
+  border-radius: 0px 5px 5px 5px;
+
+  background-color: rgb(240, 185, 3);
+}
+
+.settings_list {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.settings_list_item {
+  border: none;
+  background-color: rgb(240, 185, 3);
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0px 5px;
+  transition: font-size 0.5s;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.settings_list_item:hover {
+  font-size: 22px;
+  background-color: rgb(23, 23, 158);
+  color: rgb(240, 185, 3);
+}

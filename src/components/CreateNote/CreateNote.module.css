@@ -1,0 +1,95 @@
+.note_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(240, 185, 3);
+  width: 600px;
+  height: 480px;
+  border-radius: 5px;
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  padding: 20px;
+}
+
+.note_close_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.note_close_button {
+  height: 30px;
+  border: none;
+  background-color: rgb(240, 185, 3);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.note_close_button:hover {
+  font-size: 28px;
+}
+
+.note_header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+
+.note_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note_form_header {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+
+.note_form_paragraph {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  resize: none;
+  cursor: pointer;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+
+.note_button_block {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.note_form_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  width: 200px;
+  height: 45px;
+  background-color: rgb(23, 23, 158);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.note_form_button:hover {
+  background-color: rgb(3, 125, 240);
+  box-shadow: +5px -5px 0 black;
+}

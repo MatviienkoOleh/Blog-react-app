@@ -1,0 +1,95 @@
+.note_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.note {
+  overflow-y: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  width: 750px;
+  max-height: 250px;
+  margin-bottom: 30px;
+  background-color: rgb(3, 125, 240);
+  transition: max-height 0.8s 0.1s ease;
+}
+
+.note:hover {
+  max-height: 400px;
+}
+
+.note_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.note_header_btn {
+  background-color: rgb(3, 125, 240);
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.note_views_section {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  justify-content: space-between;
+  color: rgb(240, 185, 3);
+}
+
+.note_likes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.note_symbol {
+  transition: transform 0.5s;
+}
+
+.note_symbol:hover {
+  transform: scale(1.5);
+}
+
+.note_dislike {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.note_comments {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  fill: rgb(240, 185, 3);
+  cursor: pointer;
+}
+
+.note_settings {
+  width: 19px;
+  height: 19px;
+  fill: rgb(240, 185, 3);
+  cursor: pointer;
+}
+
+.note_comments_section {
+  flex-direction: column;
+  position: fixed;
+  left: 30%;
+  top: 20%;
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  overflow-y: auto;
+  border-radius: 5px;
+
+  background-color: rgb(240, 185, 3);
+  color: black;
+}
