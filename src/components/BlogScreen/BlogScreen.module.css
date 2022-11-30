@@ -50,3 +50,15 @@
     width: 60%;
   }
 }
+
+@media(max-width: 600px) {
+  .create_new_note {
+    width: 40%;
+  }
+}
+
+@media(max-width: 420px) {
+  .create_new_note {
+    width: 30%;
+  }
+}

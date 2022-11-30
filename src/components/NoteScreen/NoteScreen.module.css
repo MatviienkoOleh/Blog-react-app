@@ -112,3 +112,33 @@
     left: 15%;
   }
 }
+
+@media(max-width: 650px) {
+  .note {
+    width: 400px;
+  }
+
+  .note_comments_section {
+    left: 10%;
+  }
+}
+
+@media(max-width: 550px) {
+  .note_comments_section {
+    left: 8%;
+    width: 35%;
+  }
+}
+
+@media(max-width: 500px) {
+  .note {
+    width: 300px;
+  }
+}
+
+@media(max-width: 450px) {
+  .note_comments_section {
+    left: 5%;
+    width: 30%;
+  }
+}

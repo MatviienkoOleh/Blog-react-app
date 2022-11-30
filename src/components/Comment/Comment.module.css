@@ -54,3 +54,42 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
 }
+
+@media (max-width: 1000px) {
+  .comment_name {
+    font-size: 14px;
+  }
+  
+  .comment_comment {
+
+    font-size: 14px;
+  }
+  
+  .comment_name_my {
+    font-size: 14px;
+  }
+  
+  .comment_comment_my {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .comment_name {
+    font-size: 12px;
+  }
+  
+  .comment_comment {
+
+    font-size: 12px;
+  }
+  
+  .comment_name_my {
+    font-size: 12px;
+  }
+  
+  .comment_comment_my {
+    font-size: 12px;
+  }
+}

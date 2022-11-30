@@ -100,3 +100,26 @@
     display: none;
   }
 }
+
+
+@media (max-width: 700px) {
+  .manually_menu {
+    width: 250px;
+  }
+  
+  .header_button {
+    width: 100px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .manually_menu {
+    width: 200px;
+  }
+  
+  .header_button {
+    width: 95px;
+    font-size: 14px;
+  }
+}

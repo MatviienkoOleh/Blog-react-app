@@ -76,8 +76,8 @@ const BlogProfile: React.FC<BlogProfileProps> = ({
       <footer className={style.blog_footer_block}>
         <div className={style.blog_settings}></div>
         <div className={style.blog_footer}>
-          <div>{blog.name}</div>
-          <div>{blog.email}</div>
+          <div className={style.blog_footer_description}>{blog.name}</div>
+          <div className={style.blog_footer_description}>{blog.email}</div>
         </div>
       </footer>
     </div>

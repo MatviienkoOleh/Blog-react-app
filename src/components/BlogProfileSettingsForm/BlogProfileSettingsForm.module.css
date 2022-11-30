@@ -38,3 +38,19 @@
     width: 350px;
   }
 }
+
+@media(max-width: 620px) {
+  .blog_settings_form {
+    width: 350px;
+    left: 0px;
+    top: 4.5rem;
+  }
+}
+
+@media(max-width: 420px) {
+  .blog_settings_form {
+    width: 250px;
+    left: 0px;
+    top: 4.5rem;
+  }
+}
