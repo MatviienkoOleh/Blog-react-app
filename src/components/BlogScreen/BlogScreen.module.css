@@ -52,6 +52,11 @@
 }
 
 @media(max-width: 600px) {
+  .blog_screen_wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .create_new_note {
     width: 40%;
   }
