@@ -1,4 +1,4 @@
-import React, { ChangeEventHandler, MouseEventHandler } from "react";
+import React, { ChangeEventHandler} from "react";
 import { Routes, Route } from "react-router-dom";
 import { IBlog, IBlogInfo, ICommentary, INote } from "../../interface/global";
 import BlogScreen from "../BlogScreen/BlogScreen";

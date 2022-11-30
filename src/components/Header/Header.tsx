@@ -1,7 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useState } from "react";
 import style from "./Header.module.css";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Context } from "./../../index";
 import { IBlog, IBlogInfo } from "../../interface/global";
 import NavigationLInk from "../NavigationLink/NavigationLInk";
 import HeaderForm from "../HeaderForm/HeaderForm";

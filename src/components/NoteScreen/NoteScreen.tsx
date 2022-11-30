@@ -1,8 +1,6 @@
 import React, { ChangeEventHandler, useState } from "react";
 import { IBlog, ICommentary } from "../../interface/global";
-import Comment from "../Comment/Comment";
 import CommentDeleteButton from "../CommentDeleteButton/CommentDeleteButton";
-import CommentForm from "../CommentForm/CommentForm";
 import CommentsMain from "../CommentsMain/CommentsMain";
 import style from "./NoteScreen.module.css";
 

@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import style from "./App.module.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import Header from "./components/Header/Header";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Context } from "./index";
 import {
@@ -12,7 +11,6 @@ import {
   INote,
 } from "./interface/global";
 import MainRoutes from "./components/MainRoutes/MainRoutes";
-import { idText } from "typescript";
 import { remove } from "firebase/database";
 
 function App() {

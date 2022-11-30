@@ -89,7 +89,7 @@
     padding: 0px 10px;
     background-color: rgb(23, 23, 158);
   }
-  
+
   .blog_settings {
     width: 20px;
     background-color: rgb(23, 23, 158);
@@ -130,7 +130,6 @@
 
 @media (max-width: 500px) {
   .blog_main {
-
     padding: 5px;
   }
 

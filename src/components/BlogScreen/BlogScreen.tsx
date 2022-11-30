@@ -1,8 +1,6 @@
-import { blob } from "node:stream/consumers";
 import React, {
   ChangeEventHandler,
   MouseEventHandler,
-  useEffect,
   useState,
 } from "react";
 import { IBlog, IBlogInfo, ICommentary, INote } from "../../interface/global";
