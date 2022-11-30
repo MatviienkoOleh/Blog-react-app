@@ -76,3 +76,15 @@
 .vertical_menu:hover {
   transform: scale(1.5);
 }
+
+@media (max-width: 1000px) {
+  .blog_info {
+    width: 750px;
+  }
+}
+
+@media (max-width: 810px) {
+  .blog_info {
+    width: 600px;
+  }
+}

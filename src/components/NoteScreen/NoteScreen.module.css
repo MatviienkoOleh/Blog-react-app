@@ -93,3 +93,22 @@
   background-color: rgb(240, 185, 3);
   color: black;
 }
+
+
+@media(max-width: 1000px) {
+  .note {
+    width: 550px;
+  }
+}
+
+@media(max-width: 800px) {
+  .note_comments_section {
+    left: 20%;
+  }
+}
+
+@media(max-width: 700px) {
+  .note_comments_section {
+    left: 15%;
+  }
+}

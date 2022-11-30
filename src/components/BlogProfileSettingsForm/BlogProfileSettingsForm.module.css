@@ -32,3 +32,9 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
 }
+
+@media(max-width: 800px) {
+  .blog_settings_form {
+    width: 350px;
+  }
+}

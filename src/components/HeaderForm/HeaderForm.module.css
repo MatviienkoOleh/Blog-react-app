@@ -54,3 +54,45 @@
 .create_menu_button:hover {
   border-bottom: 1px solid black;
 }
+
+@media (max-width: 1230px) {
+  .create_menu {
+    left: 200px;
+  }
+}
+
+@media(max-width: 1000px) {
+  .create_menu {
+    left: 220px;
+  }
+}
+
+@media(max-width: 830px) {
+  .create_menu {
+    width: 350px;
+    height: 300px;
+  }
+
+  .create_menu_header {
+    width: 350px;
+  }
+  
+  .create_menu_info {
+    width: 350px;
+  }
+  
+  .create_menu_btn_block {
+    width: 350px;
+  }
+  
+  .create_menu_button {
+    border: none;
+    background-color: rgb(240, 185, 3);
+    border-bottom: 1px solid rgb(240, 185, 3);
+  
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

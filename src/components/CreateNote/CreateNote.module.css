@@ -93,3 +93,23 @@
   background-color: rgb(3, 125, 240);
   box-shadow: +5px -5px 0 black;
 }
+
+@media(max-width: 1000px) {
+  .note_wrapper {
+    width: 500px;
+    top: 30%;
+    left: 25%;
+  }
+}
+
+@media(max-width: 810px) {
+  .note_wrapper {
+    left: 15%;
+  }
+}
+
+@media(max-width: 700px) {
+  .note_wrapper {
+    left: 10%;
+  }
+}

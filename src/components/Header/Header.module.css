@@ -58,3 +58,45 @@
   font-size: 24px;
   color: rgb(240, 185, 3);
 }
+
+@media (max-width: 1230px) {
+  .header_button {
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .header_text {
+    font-size: 20px;
+  }
+
+  .manually_menu {
+    display: flex;
+    width: 350px;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media(max-width: 1000px) {
+  .header_button {
+    width: 130px;
+    font-size: 18px;
+  }
+
+  .header_text {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 950px) {
+  .header_text {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 840px) {
+  .header_text {
+    display: none;
+  }
+}

@@ -44,3 +44,9 @@
   margin-bottom: 30px;
   background-color: rgb(240, 185, 3);
 }
+
+@media(max-width: 1000px) {
+  .create_new_note {
+    width: 60%;
+  }
+}
