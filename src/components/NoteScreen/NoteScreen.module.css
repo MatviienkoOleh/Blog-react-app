@@ -110,6 +110,7 @@
 @media(max-width: 700px) {
   .note_comments_section {
     left: 15%;
+    width: 400px;
   }
 }
 
@@ -119,6 +120,7 @@
   }
 
   .note_comments_section {
+    width: 350px;
     left: 10%;
   }
 }
