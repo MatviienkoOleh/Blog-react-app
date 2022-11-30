@@ -1,8 +1,4 @@
-import React, {
-  ChangeEventHandler,
-  MouseEventHandler,
-  useState,
-} from "react";
+import React, { ChangeEventHandler, MouseEventHandler, useState } from "react";
 import { IBlog, IBlogInfo, ICommentary, INote } from "../../interface/global";
 import BlogProfile from "../BlogProfile/BlogProfile";
 import CreateNote from "../CreateNote/CreateNote";
@@ -126,8 +122,8 @@ const BlogScreen: React.FC<BlogScreenProps> = ({
         <section className={style.notes_block}>
           {blog.notes
             ? keysOfNotes.reverse().map((key) => {
-                if (key !== "count") {
-                  return (
+                let result =
+                  key !== "count" ? (
                     <NoteScreen
                       key={key}
                       blogId={blog.id}
@@ -141,8 +137,8 @@ const BlogScreen: React.FC<BlogScreenProps> = ({
                       createCommentary={createCommentary}
                       deleteNote={deleteNote}
                     />
-                  );
-                }
+                  ) : null;
+                return result;
               })
             : null}
         </section>

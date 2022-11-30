@@ -4,7 +4,7 @@ import CommentForm from "../CommentForm/CommentForm";
 import Comment from "../Comment/Comment";
 import style from "./CommentsMain.module.css";
 
-interface CommentsMain {
+interface CommentsMainProps {
   setIsVisible: Function;
   isVisible: boolean;
   blog: IBlog;
@@ -16,7 +16,7 @@ interface CommentsMain {
   blogId: string;
 }
 
-const CommentsMain: React.FC<CommentsMain> = ({
+const CommentsMain: React.FC<CommentsMainProps> = ({
   setIsVisible,
   isVisible,
   blog,

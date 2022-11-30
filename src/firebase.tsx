@@ -1,5 +1,4 @@
 import firebase from "firebase/compat/app";
-import { initializeApp } from "firebase/app";
 import "firebase/compat/auth";
 import { IContext } from "./interface/global";
 import { getDatabase, ref, set, onValue, push, remove , update} from "firebase/database";

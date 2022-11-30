@@ -2,13 +2,13 @@ import React from "react";
 import { IBlog } from "../../interface/global";
 import style from "./CommentDeleteButton.module.css";
 
-interface CommentDeleteButton {
+interface CommentDeleteButtonProps {
   id: string;
   blog: IBlog;
   deleteNote: Function;
 }
 
-const CommentDeleteButton: React.FC<CommentDeleteButton> = ({
+const CommentDeleteButton: React.FC<CommentDeleteButtonProps> = ({
   id,
   blog,
   deleteNote,
