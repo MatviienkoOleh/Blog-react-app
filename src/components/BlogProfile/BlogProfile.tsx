@@ -28,7 +28,7 @@ const BlogProfile: React.FC<BlogProfileProps> = ({
     if (blog.id !== copyBlog.id) {
       setIsVisible(false);
     }
-  }, [blog]);
+  }, [blog, copyBlog]);
 
   const blogSettingsWrapper: React.MouseEventHandler = (event) => {
     event.preventDefault();
@@ -67,6 +67,7 @@ const BlogProfile: React.FC<BlogProfileProps> = ({
         </div>
         <main className={style.blog_main}>
           <img
+            alt=''
             className={style.blog_img}
             src={blog.photo ? blog.photo : "/Assets/user_blog.png"}
           />

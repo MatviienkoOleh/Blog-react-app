@@ -1,4 +1,4 @@
-import React, { ChangeEventHandler, useEffect, useState } from "react";
+import React, { ChangeEventHandler } from "react";
 import { useNavigate } from "react-router-dom";
 import { IBlog } from "../../interface/global";
 import style from "./BlogProfileSettingsForm.module.css";

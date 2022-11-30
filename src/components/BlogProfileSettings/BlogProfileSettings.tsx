@@ -26,7 +26,7 @@ const BlogProfileSettings: React.FC<BlogProfileSettingsProps> = ({
     if (blog.id !== copyBlog.id) {
       setIsFormVisible(false);
     }
-  }, [blog]);
+  }, [blog, copyBlog]);
 
   const openFormHandler: React.MouseEventHandler<HTMLButtonElement> = (event) => {
     event.preventDefault();
