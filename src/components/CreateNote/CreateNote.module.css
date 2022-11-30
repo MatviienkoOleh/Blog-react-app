@@ -156,13 +156,13 @@
 
 @media(max-width: 450px) {
   .note_wrapper {
-    left: 5%;
+    left: 8%;
   }
 }
 
 @media(max-width: 400px) {
   .note_wrapper {
-    left: 5%;
+    left: 8%;
     width: 250px;
   }
 }

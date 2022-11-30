@@ -140,7 +140,7 @@
 
 @media(max-width: 450px) {
   .note_comments_section {
-    left: 3%;
+    left: 8%;
     width: 280px;
   }
 }
