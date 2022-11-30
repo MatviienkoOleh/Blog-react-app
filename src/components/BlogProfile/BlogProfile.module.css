@@ -129,8 +129,20 @@
 }
 
 @media (max-width: 500px) {
+  .blog_main {
+
+    padding: 5px;
+  }
+
   .blog_info {
     width: 350px;
+    height: 200px;
+  }
+
+  .blog_img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
   }
 
   .blog_description {
